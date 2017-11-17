@@ -1,0 +1,24 @@
+{{# each events}}
+		
+<div class="row">
+	{{# each this}}
+		<div class="col-sm-12 col-md-4">
+    <div class="thumbnail">
+      <div class="caption">
+        <h3>{{ this.title }}</h3>
+        <p>Date: {{this.date}}</p>
+        <p> Oganised By: {{this.organiser }}</p>
+        <p>Location: {{this.location}}</p>
+        <p>Description : {{this.description}}</p>
+        <p>Ticket Price: {{this.ticketPrice}}</p>
+       
+        <div class="clearfix">
+        	<a href="" class="btn btn-success pull-right" role="button">Discussion Board</a>
+        
+      </div>
+    </div>
+  </div>
+  </div>
+	{{/each}}
+</div>
+{{/each}}

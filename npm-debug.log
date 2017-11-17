@@ -1,0 +1,907 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'c:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'express-validator',
+1 verbose cli   '--save' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData express-validator
+8 silly fetchNamedPackageData express-validator
+9 silly mapToRegistry name express-validator
+10 silly mapToRegistry using default registry
+11 silly mapToRegistry registry https://registry.npmjs.org/
+12 silly mapToRegistry data Result {
+12 silly mapToRegistry   raw: 'express-validator',
+12 silly mapToRegistry   scope: null,
+12 silly mapToRegistry   escapedName: 'express-validator',
+12 silly mapToRegistry   name: 'express-validator',
+12 silly mapToRegistry   rawSpec: '',
+12 silly mapToRegistry   spec: 'latest',
+12 silly mapToRegistry   type: 'tag' }
+13 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+14 verbose request uri https://registry.npmjs.org/express-validator
+15 verbose request no auth needed
+16 info attempt registry request try #1 at 4:13:50 PM
+17 verbose request id eacd7c0c1f803f35
+18 verbose etag W/"59804a90-1f5a8"
+19 verbose lastModified Tue, 01 Aug 2017 09:32:00 GMT
+20 http request GET https://registry.npmjs.org/express-validator
+21 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+22 info attempt registry request try #2 at 4:14:00 PM
+23 verbose etag W/"59804a90-1f5a8"
+24 verbose lastModified Tue, 01 Aug 2017 09:32:00 GMT
+25 http request GET https://registry.npmjs.org/express-validator
+26 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+27 info attempt registry request try #3 at 4:15:00 PM
+28 verbose etag W/"59804a90-1f5a8"
+29 verbose lastModified Tue, 01 Aug 2017 09:32:00 GMT
+30 http request GET https://registry.npmjs.org/express-validator
+31 silly get cb [ 304, undefined ]
+32 verbose etag https://registry.npmjs.org/express-validator from cache
+33 verbose get saving express-validator to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\express-validator\.cache.json
+34 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+35 silly install normalizeTree
+36 silly loadCurrentTree Finishing
+37 silly loadIdealTree Starting
+38 silly install loadIdealTree
+39 silly cloneCurrentTree Starting
+40 silly install cloneCurrentTreeToIdealTree
+41 silly cloneCurrentTree Finishing
+42 silly loadShrinkwrap Starting
+43 silly install loadShrinkwrap
+44 silly loadShrinkwrap Finishing
+45 silly loadAllDepsIntoIdealTree Starting
+46 silly install loadAllDepsIntoIdealTree
+47 silly resolveWithNewModule express-validator@3.2.1 checking installable status
+48 silly cache add args [ 'express-validator', null ]
+49 verbose cache add spec express-validator
+50 silly cache add parsed spec Result {
+50 silly cache add   raw: 'express-validator',
+50 silly cache add   scope: null,
+50 silly cache add   escapedName: 'express-validator',
+50 silly cache add   name: 'express-validator',
+50 silly cache add   rawSpec: '',
+50 silly cache add   spec: 'latest',
+50 silly cache add   type: 'tag' }
+51 silly addNamed express-validator@latest
+52 verbose addNamed "latest" is being treated as a dist-tag for express-validator
+53 info addNameTag [ 'express-validator', 'latest' ]
+54 silly mapToRegistry name express-validator
+55 silly mapToRegistry using default registry
+56 silly mapToRegistry registry https://registry.npmjs.org/
+57 silly mapToRegistry data Result {
+57 silly mapToRegistry   raw: 'express-validator',
+57 silly mapToRegistry   scope: null,
+57 silly mapToRegistry   escapedName: 'express-validator',
+57 silly mapToRegistry   name: 'express-validator',
+57 silly mapToRegistry   rawSpec: '',
+57 silly mapToRegistry   spec: 'latest',
+57 silly mapToRegistry   type: 'tag' }
+58 silly mapToRegistry uri https://registry.npmjs.org/express-validator
+59 verbose addNameTag registry:https://registry.npmjs.org/express-validator not in flight; fetching
+60 verbose get https://registry.npmjs.org/express-validator not expired, no request
+61 silly addNameTag next cb for express-validator with tag latest
+62 silly addNamed express-validator@3.2.1
+63 verbose addNamed "3.2.1" is a plain semver version for express-validator
+64 silly cache afterAdd express-validator@3.2.1
+65 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\express-validator\3.2.1\package\package.json not in flight; writing
+66 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+67 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\express-validator\3.2.1\package\package.json written
+68 silly fetchNamedPackageData @types/bluebird
+69 silly mapToRegistry name @types/bluebird
+70 silly mapToRegistry scope (from package name) @types
+71 verbose mapToRegistry no registry URL found in name for scope @types
+72 silly mapToRegistry using default registry
+73 silly mapToRegistry registry https://registry.npmjs.org/
+74 silly mapToRegistry data Result {
+74 silly mapToRegistry   raw: '@types/bluebird',
+74 silly mapToRegistry   scope: '@types',
+74 silly mapToRegistry   escapedName: '@types%2fbluebird',
+74 silly mapToRegistry   name: '@types/bluebird',
+74 silly mapToRegistry   rawSpec: '',
+74 silly mapToRegistry   spec: 'latest',
+74 silly mapToRegistry   type: 'tag' }
+75 silly mapToRegistry uri https://registry.npmjs.org/@types%2fbluebird
+76 silly fetchNamedPackageData @types/express
+77 silly mapToRegistry name @types/express
+78 silly mapToRegistry scope (from package name) @types
+79 verbose mapToRegistry no registry URL found in name for scope @types
+80 silly mapToRegistry using default registry
+81 silly mapToRegistry registry https://registry.npmjs.org/
+82 silly mapToRegistry data Result {
+82 silly mapToRegistry   raw: '@types/express',
+82 silly mapToRegistry   scope: '@types',
+82 silly mapToRegistry   escapedName: '@types%2fexpress',
+82 silly mapToRegistry   name: '@types/express',
+82 silly mapToRegistry   rawSpec: '',
+82 silly mapToRegistry   spec: 'latest',
+82 silly mapToRegistry   type: 'tag' }
+83 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+84 silly fetchNamedPackageData validator
+85 silly mapToRegistry name validator
+86 silly mapToRegistry using default registry
+87 silly mapToRegistry registry https://registry.npmjs.org/
+88 silly mapToRegistry data Result {
+88 silly mapToRegistry   raw: 'validator',
+88 silly mapToRegistry   scope: null,
+88 silly mapToRegistry   escapedName: 'validator',
+88 silly mapToRegistry   name: 'validator',
+88 silly mapToRegistry   rawSpec: '',
+88 silly mapToRegistry   spec: 'latest',
+88 silly mapToRegistry   type: 'tag' }
+89 silly mapToRegistry uri https://registry.npmjs.org/validator
+90 verbose request uri https://registry.npmjs.org/@types%2fexpress
+91 verbose request no auth needed
+92 info attempt registry request try #1 at 4:15:00 PM
+93 verbose etag W/"599c5a40-4e5f"
+94 verbose lastModified Tue, 22 Aug 2017 16:22:24 GMT
+95 http request GET https://registry.npmjs.org/@types%2fexpress
+96 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+97 verbose request uri https://registry.npmjs.org/@types%2fbluebird
+98 verbose request no auth needed
+99 info attempt registry request try #1 at 4:15:00 PM
+100 verbose etag W/"599c5a1a-84d7"
+101 verbose lastModified Tue, 22 Aug 2017 16:21:46 GMT
+102 http request GET https://registry.npmjs.org/@types%2fbluebird
+103 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+104 verbose request uri https://registry.npmjs.org/validator
+105 verbose request no auth needed
+106 info attempt registry request try #1 at 4:15:00 PM
+107 verbose etag W/"598d9ee1-3e298"
+108 verbose lastModified Fri, 11 Aug 2017 12:11:13 GMT
+109 http request GET https://registry.npmjs.org/validator
+110 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+111 info attempt registry request try #2 at 4:15:10 PM
+112 verbose etag W/"599c5a40-4e5f"
+113 verbose lastModified Tue, 22 Aug 2017 16:22:24 GMT
+114 http request GET https://registry.npmjs.org/@types%2fexpress
+115 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+116 info attempt registry request try #2 at 4:15:10 PM
+117 verbose etag W/"599c5a1a-84d7"
+118 verbose lastModified Tue, 22 Aug 2017 16:21:46 GMT
+119 http request GET https://registry.npmjs.org/@types%2fbluebird
+120 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+121 info attempt registry request try #2 at 4:15:10 PM
+122 verbose etag W/"598d9ee1-3e298"
+123 verbose lastModified Fri, 11 Aug 2017 12:11:13 GMT
+124 http request GET https://registry.npmjs.org/validator
+125 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+126 info attempt registry request try #3 at 4:16:10 PM
+127 verbose etag W/"599c5a40-4e5f"
+128 verbose lastModified Tue, 22 Aug 2017 16:22:24 GMT
+129 http request GET https://registry.npmjs.org/@types%2fexpress
+130 info attempt registry request try #3 at 4:16:10 PM
+131 verbose etag W/"599c5a1a-84d7"
+132 verbose lastModified Tue, 22 Aug 2017 16:21:46 GMT
+133 http request GET https://registry.npmjs.org/@types%2fbluebird
+134 silly get cb [ 304, undefined ]
+135 verbose etag https://registry.npmjs.org/@types%2fexpress from cache
+136 verbose get saving @types/express to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\_40types_252fexpress\.cache.json
+137 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+138 silly get cb [ 304, undefined ]
+139 verbose etag https://registry.npmjs.org/@types%2fbluebird from cache
+140 verbose get saving @types/bluebird to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\_40types_252fbluebird\.cache.json
+141 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+142 info attempt registry request try #3 at 4:16:10 PM
+143 verbose etag W/"598d9ee1-3e298"
+144 verbose lastModified Fri, 11 Aug 2017 12:11:13 GMT
+145 http request GET https://registry.npmjs.org/validator
+146 silly get cb [ 304, undefined ]
+147 verbose etag https://registry.npmjs.org/validator from cache
+148 verbose get saving validator to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\validator\.cache.json
+149 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+150 silly resolveWithNewModule @types/express@4.0.37 checking installable status
+151 silly cache add args [ '@types/express@~4.0.34', null ]
+152 verbose cache add spec @types/express@~4.0.34
+153 silly cache add parsed spec Result {
+153 silly cache add   raw: '@types/express@~4.0.34',
+153 silly cache add   scope: '@types',
+153 silly cache add   escapedName: '@types%2fexpress',
+153 silly cache add   name: '@types/express',
+153 silly cache add   rawSpec: '~4.0.34',
+153 silly cache add   spec: '>=4.0.34 <4.1.0',
+153 silly cache add   type: 'range' }
+154 silly addNamed @types/express@>=4.0.34 <4.1.0
+155 verbose addNamed ">=4.0.34 <4.1.0" is a valid semver range for @types/express
+156 silly addNameRange { name: '@types/express',
+156 silly addNameRange   range: '>=4.0.34 <4.1.0',
+156 silly addNameRange   hasData: false }
+157 silly mapToRegistry name @types/express
+158 silly mapToRegistry scope (from package name) @types
+159 verbose mapToRegistry no registry URL found in name for scope @types
+160 silly mapToRegistry using default registry
+161 silly mapToRegistry registry https://registry.npmjs.org/
+162 silly mapToRegistry data Result {
+162 silly mapToRegistry   raw: '@types/express',
+162 silly mapToRegistry   scope: '@types',
+162 silly mapToRegistry   escapedName: '@types%2fexpress',
+162 silly mapToRegistry   name: '@types/express',
+162 silly mapToRegistry   rawSpec: '',
+162 silly mapToRegistry   spec: 'latest',
+162 silly mapToRegistry   type: 'tag' }
+163 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress
+164 verbose addNameRange registry:https://registry.npmjs.org/@types%2fexpress not in flight; fetching
+165 silly resolveWithNewModule @types/bluebird@3.5.8 checking installable status
+166 silly cache add args [ '@types/bluebird@^3.4.0', null ]
+167 verbose cache add spec @types/bluebird@^3.4.0
+168 silly cache add parsed spec Result {
+168 silly cache add   raw: '@types/bluebird@^3.4.0',
+168 silly cache add   scope: '@types',
+168 silly cache add   escapedName: '@types%2fbluebird',
+168 silly cache add   name: '@types/bluebird',
+168 silly cache add   rawSpec: '^3.4.0',
+168 silly cache add   spec: '>=3.4.0 <4.0.0',
+168 silly cache add   type: 'range' }
+169 silly addNamed @types/bluebird@>=3.4.0 <4.0.0
+170 verbose addNamed ">=3.4.0 <4.0.0" is a valid semver range for @types/bluebird
+171 silly addNameRange { name: '@types/bluebird',
+171 silly addNameRange   range: '>=3.4.0 <4.0.0',
+171 silly addNameRange   hasData: false }
+172 silly mapToRegistry name @types/bluebird
+173 silly mapToRegistry scope (from package name) @types
+174 verbose mapToRegistry no registry URL found in name for scope @types
+175 silly mapToRegistry using default registry
+176 silly mapToRegistry registry https://registry.npmjs.org/
+177 silly mapToRegistry data Result {
+177 silly mapToRegistry   raw: '@types/bluebird',
+177 silly mapToRegistry   scope: '@types',
+177 silly mapToRegistry   escapedName: '@types%2fbluebird',
+177 silly mapToRegistry   name: '@types/bluebird',
+177 silly mapToRegistry   rawSpec: '',
+177 silly mapToRegistry   spec: 'latest',
+177 silly mapToRegistry   type: 'tag' }
+178 silly mapToRegistry uri https://registry.npmjs.org/@types%2fbluebird
+179 verbose addNameRange registry:https://registry.npmjs.org/@types%2fbluebird not in flight; fetching
+180 verbose get https://registry.npmjs.org/@types%2fexpress not expired, no request
+181 silly addNameRange number 2 { name: '@types/express',
+181 silly addNameRange   range: '>=4.0.34 <4.1.0',
+181 silly addNameRange   hasData: true }
+182 silly addNameRange versions [ '@types/express',
+182 silly addNameRange   [ '4.0.16-alpha',
+182 silly addNameRange     '4.0.17-alpha',
+182 silly addNameRange     '4.0.22-alpha',
+182 silly addNameRange     '4.0.23-alpha',
+182 silly addNameRange     '4.0.24-alpha',
+182 silly addNameRange     '4.0.25-alpha',
+182 silly addNameRange     '4.0.26-alpha',
+182 silly addNameRange     '4.0.27-alpha',
+182 silly addNameRange     '4.0.28-alpha',
+182 silly addNameRange     '4.0.29',
+182 silly addNameRange     '4.0.30',
+182 silly addNameRange     '4.0.31',
+182 silly addNameRange     '4.0.32',
+182 silly addNameRange     '4.0.33',
+182 silly addNameRange     '4.0.34',
+182 silly addNameRange     '4.0.35',
+182 silly addNameRange     '4.0.36',
+182 silly addNameRange     '4.0.37' ] ]
+183 silly addNamed @types/express@4.0.37
+184 verbose addNamed "4.0.37" is a plain semver version for @types/express
+185 verbose get https://registry.npmjs.org/@types%2fbluebird not expired, no request
+186 silly addNameRange number 2 { name: '@types/bluebird',
+186 silly addNameRange   range: '>=3.4.0 <4.0.0',
+186 silly addNameRange   hasData: true }
+187 silly addNameRange versions [ '@types/bluebird',
+187 silly addNameRange   [ '2.0.15-alpha',
+187 silly addNameRange     '2.0.16-alpha',
+187 silly addNameRange     '2.0.21-alpha',
+187 silly addNameRange     '2.0.22-alpha',
+187 silly addNameRange     '2.0.23-alpha',
+187 silly addNameRange     '2.0.24-alpha',
+187 silly addNameRange     '2.0.25-alpha',
+187 silly addNameRange     '2.0.26-alpha',
+187 silly addNameRange     '2.0.27-alpha',
+187 silly addNameRange     '2.0.28',
+187 silly addNameRange     '2.0.29',
+187 silly addNameRange     '2.0.30',
+187 silly addNameRange     '3.0.31',
+187 silly addNameRange     '3.0.32',
+187 silly addNameRange     '3.0.33',
+187 silly addNameRange     '3.0.34',
+187 silly addNameRange     '3.0.35',
+187 silly addNameRange     '3.0.36',
+187 silly addNameRange     '3.0.37',
+187 silly addNameRange     '1.0.0',
+187 silly addNameRange     '2.0.31',
+187 silly addNameRange     '1.0.1',
+187 silly addNameRange     '2.0.32',
+187 silly addNameRange     '3.5.0',
+187 silly addNameRange     '3.5.1',
+187 silly addNameRange     '3.5.2',
+187 silly addNameRange     '1.0.2',
+187 silly addNameRange     '3.5.3',
+187 silly addNameRange     '3.5.4',
+187 silly addNameRange     '3.5.5',
+187 silly addNameRange     '3.5.6',
+187 silly addNameRange     '3.5.7',
+187 silly addNameRange     '3.5.8' ] ]
+188 silly addNamed @types/bluebird@3.5.8
+189 verbose addNamed "3.5.8" is a plain semver version for @types/bluebird
+190 silly resolveWithNewModule validator@6.2.1 checking installable status
+191 silly cache add args [ 'validator@~6.2.0', null ]
+192 verbose cache add spec validator@~6.2.0
+193 silly cache add parsed spec Result {
+193 silly cache add   raw: 'validator@~6.2.0',
+193 silly cache add   scope: null,
+193 silly cache add   escapedName: 'validator',
+193 silly cache add   name: 'validator',
+193 silly cache add   rawSpec: '~6.2.0',
+193 silly cache add   spec: '>=6.2.0 <6.3.0',
+193 silly cache add   type: 'range' }
+194 silly addNamed validator@>=6.2.0 <6.3.0
+195 verbose addNamed ">=6.2.0 <6.3.0" is a valid semver range for validator
+196 silly addNameRange { name: 'validator', range: '>=6.2.0 <6.3.0', hasData: false }
+197 silly mapToRegistry name validator
+198 silly mapToRegistry using default registry
+199 silly mapToRegistry registry https://registry.npmjs.org/
+200 silly mapToRegistry data Result {
+200 silly mapToRegistry   raw: 'validator',
+200 silly mapToRegistry   scope: null,
+200 silly mapToRegistry   escapedName: 'validator',
+200 silly mapToRegistry   name: 'validator',
+200 silly mapToRegistry   rawSpec: '',
+200 silly mapToRegistry   spec: 'latest',
+200 silly mapToRegistry   type: 'tag' }
+201 silly mapToRegistry uri https://registry.npmjs.org/validator
+202 verbose addNameRange registry:https://registry.npmjs.org/validator not in flight; fetching
+203 verbose get https://registry.npmjs.org/validator not expired, no request
+204 silly addNameRange number 2 { name: 'validator', range: '>=6.2.0 <6.3.0', hasData: true }
+205 silly addNameRange versions [ 'validator',
+205 silly addNameRange   [ '0.1.0',
+205 silly addNameRange     '0.1.1',
+205 silly addNameRange     '0.1.2',
+205 silly addNameRange     '0.1.3',
+205 silly addNameRange     '0.1.4',
+205 silly addNameRange     '0.1.5',
+205 silly addNameRange     '0.1.6',
+205 silly addNameRange     '0.1.7',
+205 silly addNameRange     '0.1.8',
+205 silly addNameRange     '0.1.9',
+205 silly addNameRange     '0.2.0',
+205 silly addNameRange     '0.2.1',
+205 silly addNameRange     '0.2.2',
+205 silly addNameRange     '0.2.3',
+205 silly addNameRange     '0.2.4',
+205 silly addNameRange     '0.2.5',
+205 silly addNameRange     '0.2.6',
+205 silly addNameRange     '0.2.7',
+205 silly addNameRange     '0.2.8',
+205 silly addNameRange     '0.2.9',
+205 silly addNameRange     '0.3.0',
+205 silly addNameRange     '0.3.1',
+205 silly addNameRange     '0.3.2',
+205 silly addNameRange     '0.3.4',
+205 silly addNameRange     '0.3.5',
+205 silly addNameRange     '0.3.6',
+205 silly addNameRange     '0.3.7',
+205 silly addNameRange     '0.3.8',
+205 silly addNameRange     '0.3.9',
+205 silly addNameRange     '0.4.0',
+205 silly addNameRange     '0.4.1',
+205 silly addNameRange     '0.4.2',
+205 silly addNameRange     '0.4.3',
+205 silly addNameRange     '0.4.4',
+205 silly addNameRange     '0.4.5',
+205 silly addNameRange     '0.4.6',
+205 silly addNameRange     '0.4.6-1',
+205 silly addNameRange     '0.4.6-2',
+205 silly addNameRange     '0.4.6-3',
+205 silly addNameRange     '0.4.7',
+205 silly addNameRange     '0.4.8',
+205 silly addNameRange     '0.4.9',
+205 silly addNameRange     '0.4.10',
+205 silly addNameRange     '0.4.11',
+205 silly addNameRange     '0.4.12',
+205 silly addNameRange     '0.4.13',
+205 silly addNameRange     '0.4.15',
+205 silly addNameRange     '0.4.16',
+205 silly addNameRange     '0.4.17',
+205 silly addNameRange     '0.4.18',
+205 silly addNameRange     '0.4.19',
+205 silly addNameRange     '0.4.20',
+205 silly addNameRange     '0.4.21',
+205 silly addNameRange     '0.4.22',
+205 silly addNameRange     '0.4.23',
+205 silly addNameRange     '0.4.24',
+205 silly addNameRange     '0.4.25',
+205 silly addNameRange     '0.4.27',
+205 silly addNameRange     '0.4.28',
+205 silly addNameRange     '0.5.0',
+205 silly addNameRange     '1.0.0',
+205 silly addNameRange     '1.1.0',
+205 silly addNameRange     '1.1.1',
+205 silly addNameRange     '1.1.2',
+205 silly addNameRange     '1.1.3',
+205 silly addNameRange     '1.2.0',
+205 silly addNameRange     '1.2.1',
+205 silly addNameRange     '1.2.2',
+205 silly addNameRange     '1.3.0',
+205 silly addNameRange     '1.4.0',
+205 silly addNameRange     '1.5.0',
+205 silly addNameRange     '1.5.1',
+205 silly addNameRange     '2.0.0',
+205 silly addNameRange     '2.1.0',
+205 silly addNameRange     '3.0.0',
+205 silly addNameRange     '3.1.0',
+205 silly addNameRange     '3.2.0',
+205 silly addNameRange     '3.2.1',
+205 silly addNameRange     '3.3.0',
+205 silly addNameRange     '3.4.0',
+205 silly addNameRange     '3.5.0',
+205 silly addNameRange     '3.5.1',
+205 silly addNameRange     '3.6.0',
+205 silly addNameRange     '3.7.0',
+205 silly addNameRange     '3.8.0',
+205 silly addNameRange     '3.9.0',
+205 silly addNameRange     '3.10.0',
+205 silly addNameRange     '3.11.0',
+205 silly addNameRange     '3.11.1',
+205 silly addNameRange     '3.11.2',
+205 silly addNameRange     '3.12.0',
+205 silly addNameRange     '3.13.0',
+205 silly addNameRange     '3.14.0',
+205 silly addNameRange     '3.14.1',
+205 silly addNameRange     '3.15.0',
+205 silly addNameRange     '3.16.0',
+205 silly addNameRange     '3.16.1',
+205 silly addNameRange     '3.17.0',
+205 silly addNameRange     '3.17.1',
+205 silly addNameRange     '3.17.2',
+205 silly addNameRange     ... 71 more items ] ]
+206 silly addNamed validator@6.2.1
+207 verbose addNamed "6.2.1" is a plain semver version for validator
+208 silly cache afterAdd @types/bluebird@3.5.8
+209 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\bluebird\3.5.8\package\package.json not in flight; writing
+210 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+211 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\bluebird\3.5.8\package\package.json written
+212 silly cache afterAdd validator@6.2.1
+213 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\validator\6.2.1\package\package.json not in flight; writing
+214 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+215 silly cache afterAdd @types/express@4.0.37
+216 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\express\4.0.37\package\package.json not in flight; writing
+217 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+218 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\validator\6.2.1\package\package.json written
+219 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\express\4.0.37\package\package.json written
+220 silly fetchNamedPackageData @types/serve-static
+221 silly mapToRegistry name @types/serve-static
+222 silly mapToRegistry scope (from package name) @types
+223 verbose mapToRegistry no registry URL found in name for scope @types
+224 silly mapToRegistry using default registry
+225 silly mapToRegistry registry https://registry.npmjs.org/
+226 silly mapToRegistry data Result {
+226 silly mapToRegistry   raw: '@types/serve-static',
+226 silly mapToRegistry   scope: '@types',
+226 silly mapToRegistry   escapedName: '@types%2fserve-static',
+226 silly mapToRegistry   name: '@types/serve-static',
+226 silly mapToRegistry   rawSpec: '',
+226 silly mapToRegistry   spec: 'latest',
+226 silly mapToRegistry   type: 'tag' }
+227 silly mapToRegistry uri https://registry.npmjs.org/@types%2fserve-static
+228 silly fetchNamedPackageData @types/express-serve-static-core
+229 silly mapToRegistry name @types/express-serve-static-core
+230 silly mapToRegistry scope (from package name) @types
+231 verbose mapToRegistry no registry URL found in name for scope @types
+232 silly mapToRegistry using default registry
+233 silly mapToRegistry registry https://registry.npmjs.org/
+234 silly mapToRegistry data Result {
+234 silly mapToRegistry   raw: '@types/express-serve-static-core',
+234 silly mapToRegistry   scope: '@types',
+234 silly mapToRegistry   escapedName: '@types%2fexpress-serve-static-core',
+234 silly mapToRegistry   name: '@types/express-serve-static-core',
+234 silly mapToRegistry   rawSpec: '',
+234 silly mapToRegistry   spec: 'latest',
+234 silly mapToRegistry   type: 'tag' }
+235 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress-serve-static-core
+236 verbose request uri https://registry.npmjs.org/@types%2fserve-static
+237 verbose request no auth needed
+238 info attempt registry request try #1 at 4:16:11 PM
+239 verbose etag W/"599c5abe-4498"
+240 verbose lastModified Tue, 22 Aug 2017 16:24:30 GMT
+241 http request GET https://registry.npmjs.org/@types%2fserve-static
+242 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+243 verbose request uri https://registry.npmjs.org/@types%2fexpress-serve-static-core
+244 verbose request no auth needed
+245 info attempt registry request try #1 at 4:16:11 PM
+246 verbose etag W/"599c5a41-92ee"
+247 verbose lastModified Tue, 22 Aug 2017 16:22:25 GMT
+248 http request GET https://registry.npmjs.org/@types%2fexpress-serve-static-core
+249 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+250 info attempt registry request try #2 at 4:16:21 PM
+251 verbose etag W/"599c5abe-4498"
+252 verbose lastModified Tue, 22 Aug 2017 16:24:30 GMT
+253 http request GET https://registry.npmjs.org/@types%2fserve-static
+254 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+255 info attempt registry request try #2 at 4:16:21 PM
+256 verbose etag W/"599c5a41-92ee"
+257 verbose lastModified Tue, 22 Aug 2017 16:22:25 GMT
+258 http request GET https://registry.npmjs.org/@types%2fexpress-serve-static-core
+259 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+260 info attempt registry request try #3 at 4:17:21 PM
+261 verbose etag W/"599c5abe-4498"
+262 verbose lastModified Tue, 22 Aug 2017 16:24:30 GMT
+263 http request GET https://registry.npmjs.org/@types%2fserve-static
+264 silly get cb [ 304, undefined ]
+265 verbose etag https://registry.npmjs.org/@types%2fserve-static from cache
+266 verbose get saving @types/serve-static to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\_40types_252fserve-static\.cache.json
+267 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+268 info attempt registry request try #3 at 4:17:21 PM
+269 verbose etag W/"599c5a41-92ee"
+270 verbose lastModified Tue, 22 Aug 2017 16:22:25 GMT
+271 http request GET https://registry.npmjs.org/@types%2fexpress-serve-static-core
+272 silly get cb [ 304, undefined ]
+273 verbose etag https://registry.npmjs.org/@types%2fexpress-serve-static-core from cache
+274 verbose get saving @types/express-serve-static-core to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\_40types_252fexpress-serve-static-core\.cache.json
+275 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+276 silly resolveWithNewModule @types/serve-static@1.7.32 checking installable status
+277 silly cache add args [ '@types/serve-static@*', null ]
+278 verbose cache add spec @types/serve-static@*
+279 silly cache add parsed spec Result {
+279 silly cache add   raw: '@types/serve-static@*',
+279 silly cache add   scope: '@types',
+279 silly cache add   escapedName: '@types%2fserve-static',
+279 silly cache add   name: '@types/serve-static',
+279 silly cache add   rawSpec: '*',
+279 silly cache add   spec: '*',
+279 silly cache add   type: 'range' }
+280 silly addNamed @types/serve-static@*
+281 verbose addNamed "*" is a valid semver range for @types/serve-static
+282 silly addNameRange { name: '@types/serve-static', range: '*', hasData: false }
+283 silly mapToRegistry name @types/serve-static
+284 silly mapToRegistry scope (from package name) @types
+285 verbose mapToRegistry no registry URL found in name for scope @types
+286 silly mapToRegistry using default registry
+287 silly mapToRegistry registry https://registry.npmjs.org/
+288 silly mapToRegistry data Result {
+288 silly mapToRegistry   raw: '@types/serve-static',
+288 silly mapToRegistry   scope: '@types',
+288 silly mapToRegistry   escapedName: '@types%2fserve-static',
+288 silly mapToRegistry   name: '@types/serve-static',
+288 silly mapToRegistry   rawSpec: '',
+288 silly mapToRegistry   spec: 'latest',
+288 silly mapToRegistry   type: 'tag' }
+289 silly mapToRegistry uri https://registry.npmjs.org/@types%2fserve-static
+290 verbose addNameRange registry:https://registry.npmjs.org/@types%2fserve-static not in flight; fetching
+291 verbose get https://registry.npmjs.org/@types%2fserve-static not expired, no request
+292 silly addNameRange number 2 { name: '@types/serve-static', range: '*', hasData: true }
+293 silly addNameRange versions [ '@types/serve-static',
+293 silly addNameRange   [ '1.7.14-alpha',
+293 silly addNameRange     '1.7.15-alpha',
+293 silly addNameRange     '1.7.20-alpha',
+293 silly addNameRange     '1.7.21-alpha',
+293 silly addNameRange     '1.7.22-alpha',
+293 silly addNameRange     '1.7.23-alpha',
+293 silly addNameRange     '1.7.24-alpha',
+293 silly addNameRange     '1.7.25-alpha',
+293 silly addNameRange     '1.7.26-alpha',
+293 silly addNameRange     '1.7.27',
+293 silly addNameRange     '1.7.28',
+293 silly addNameRange     '1.7.29',
+293 silly addNameRange     '1.7.30',
+293 silly addNameRange     '1.7.31',
+293 silly addNameRange     '1.7.32' ] ]
+294 silly addNamed @types/serve-static@1.7.32
+295 verbose addNamed "1.7.32" is a plain semver version for @types/serve-static
+296 silly resolveWithNewModule @types/express-serve-static-core@4.0.50 checking installable status
+297 silly cache add args [ '@types/express-serve-static-core@*', null ]
+298 verbose cache add spec @types/express-serve-static-core@*
+299 silly cache add parsed spec Result {
+299 silly cache add   raw: '@types/express-serve-static-core@*',
+299 silly cache add   scope: '@types',
+299 silly cache add   escapedName: '@types%2fexpress-serve-static-core',
+299 silly cache add   name: '@types/express-serve-static-core',
+299 silly cache add   rawSpec: '*',
+299 silly cache add   spec: '*',
+299 silly cache add   type: 'range' }
+300 silly addNamed @types/express-serve-static-core@*
+301 verbose addNamed "*" is a valid semver range for @types/express-serve-static-core
+302 silly addNameRange { name: '@types/express-serve-static-core',
+302 silly addNameRange   range: '*',
+302 silly addNameRange   hasData: false }
+303 silly mapToRegistry name @types/express-serve-static-core
+304 silly mapToRegistry scope (from package name) @types
+305 verbose mapToRegistry no registry URL found in name for scope @types
+306 silly mapToRegistry using default registry
+307 silly mapToRegistry registry https://registry.npmjs.org/
+308 silly mapToRegistry data Result {
+308 silly mapToRegistry   raw: '@types/express-serve-static-core',
+308 silly mapToRegistry   scope: '@types',
+308 silly mapToRegistry   escapedName: '@types%2fexpress-serve-static-core',
+308 silly mapToRegistry   name: '@types/express-serve-static-core',
+308 silly mapToRegistry   rawSpec: '',
+308 silly mapToRegistry   spec: 'latest',
+308 silly mapToRegistry   type: 'tag' }
+309 silly mapToRegistry uri https://registry.npmjs.org/@types%2fexpress-serve-static-core
+310 verbose addNameRange registry:https://registry.npmjs.org/@types%2fexpress-serve-static-core not in flight; fetching
+311 verbose get https://registry.npmjs.org/@types%2fexpress-serve-static-core not expired, no request
+312 silly addNameRange number 2 { name: '@types/express-serve-static-core',
+312 silly addNameRange   range: '*',
+312 silly addNameRange   hasData: true }
+313 silly addNameRange versions [ '@types/express-serve-static-core',
+313 silly addNameRange   [ '4.0.15-alpha',
+313 silly addNameRange     '4.0.16-alpha',
+313 silly addNameRange     '4.0.21-alpha',
+313 silly addNameRange     '4.0.22-alpha',
+313 silly addNameRange     '4.0.23-alpha',
+313 silly addNameRange     '4.0.24-alpha',
+313 silly addNameRange     '4.0.25-alpha',
+313 silly addNameRange     '4.0.26-alpha',
+313 silly addNameRange     '4.0.27-alpha',
+313 silly addNameRange     '4.0.28-alpha',
+313 silly addNameRange     '4.0.29',
+313 silly addNameRange     '4.0.30',
+313 silly addNameRange     '4.0.31',
+313 silly addNameRange     '4.0.32',
+313 silly addNameRange     '4.0.33',
+313 silly addNameRange     '4.0.34',
+313 silly addNameRange     '4.0.35',
+313 silly addNameRange     '4.0.36',
+313 silly addNameRange     '4.0.37',
+313 silly addNameRange     '4.0.38',
+313 silly addNameRange     '4.0.39',
+313 silly addNameRange     '4.0.40',
+313 silly addNameRange     '4.0.41',
+313 silly addNameRange     '4.0.42',
+313 silly addNameRange     '4.0.43',
+313 silly addNameRange     '4.0.44',
+313 silly addNameRange     '4.0.45',
+313 silly addNameRange     '4.0.46',
+313 silly addNameRange     '4.0.47',
+313 silly addNameRange     '4.0.48',
+313 silly addNameRange     '4.0.49',
+313 silly addNameRange     '4.0.50' ] ]
+314 silly addNamed @types/express-serve-static-core@4.0.50
+315 verbose addNamed "4.0.50" is a plain semver version for @types/express-serve-static-core
+316 silly cache afterAdd @types/serve-static@1.7.32
+317 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\serve-static\1.7.32\package\package.json not in flight; writing
+318 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+319 silly cache afterAdd @types/express-serve-static-core@4.0.50
+320 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\express-serve-static-core\4.0.50\package\package.json not in flight; writing
+321 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+322 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\express-serve-static-core\4.0.50\package\package.json written
+323 verbose afterAdd C:\Users\vandna\AppData\Roaming\npm-cache\@types\serve-static\1.7.32\package\package.json written
+324 silly fetchNamedPackageData @types/node
+325 silly mapToRegistry name @types/node
+326 silly mapToRegistry scope (from package name) @types
+327 verbose mapToRegistry no registry URL found in name for scope @types
+328 silly mapToRegistry using default registry
+329 silly mapToRegistry registry https://registry.npmjs.org/
+330 silly mapToRegistry data Result {
+330 silly mapToRegistry   raw: '@types/node',
+330 silly mapToRegistry   scope: '@types',
+330 silly mapToRegistry   escapedName: '@types%2fnode',
+330 silly mapToRegistry   name: '@types/node',
+330 silly mapToRegistry   rawSpec: '',
+330 silly mapToRegistry   spec: 'latest',
+330 silly mapToRegistry   type: 'tag' }
+331 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+332 verbose request uri https://registry.npmjs.org/@types%2fnode
+333 verbose request no auth needed
+334 info attempt registry request try #1 at 4:17:21 PM
+335 verbose etag W/"5a05c984-43a92"
+336 verbose lastModified Fri, 10 Nov 2017 15:45:08 GMT
+337 http request GET https://registry.npmjs.org/@types%2fnode
+338 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+339 info attempt registry request try #2 at 4:17:31 PM
+340 verbose etag W/"5a05c984-43a92"
+341 verbose lastModified Fri, 10 Nov 2017 15:45:08 GMT
+342 http request GET https://registry.npmjs.org/@types%2fnode
+343 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+344 info attempt registry request try #3 at 4:18:31 PM
+345 verbose etag W/"5a05c984-43a92"
+346 verbose lastModified Fri, 10 Nov 2017 15:45:08 GMT
+347 http request GET https://registry.npmjs.org/@types%2fnode
+348 silly get cb [ 304, undefined ]
+349 verbose etag https://registry.npmjs.org/@types%2fnode from cache
+350 verbose get saving @types/node to C:\Users\vandna\AppData\Roaming\npm-cache\registry.npmjs.org\_40types_252fnode\.cache.json
+351 verbose correctMkdir C:\Users\vandna\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+352 silly resolveWithNewModule @types/node@8.0.51 checking installable status
+353 silly cache add args [ '@types/node@*', null ]
+354 verbose cache add spec @types/node@*
+355 silly cache add parsed spec Result {
+355 silly cache add   raw: '@types/node@*',
+355 silly cache add   scope: '@types',
+355 silly cache add   escapedName: '@types%2fnode',
+355 silly cache add   name: '@types/node',
+355 silly cache add   rawSpec: '*',
+355 silly cache add   spec: '*',
+355 silly cache add   type: 'range' }
+356 silly addNamed @types/node@*
+357 verbose addNamed "*" is a valid semver range for @types/node
+358 silly addNameRange { name: '@types/node', range: '*', hasData: false }
+359 silly mapToRegistry name @types/node
+360 silly mapToRegistry scope (from package name) @types
+361 verbose mapToRegistry no registry URL found in name for scope @types
+362 silly mapToRegistry using default registry
+363 silly mapToRegistry registry https://registry.npmjs.org/
+364 silly mapToRegistry data Result {
+364 silly mapToRegistry   raw: '@types/node',
+364 silly mapToRegistry   scope: '@types',
+364 silly mapToRegistry   escapedName: '@types%2fnode',
+364 silly mapToRegistry   name: '@types/node',
+364 silly mapToRegistry   rawSpec: '',
+364 silly mapToRegistry   spec: 'latest',
+364 silly mapToRegistry   type: 'tag' }
+365 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+366 verbose addNameRange registry:https://registry.npmjs.org/@types%2fnode not in flight; fetching
+367 verbose get https://registry.npmjs.org/@types%2fnode not expired, no request
+368 silly addNameRange number 2 { name: '@types/node', range: '*', hasData: true }
+369 silly addNameRange versions [ '@types/node',
+369 silly addNameRange   [ '4.0.15-alpha',
+369 silly addNameRange     '4.0.16-alpha',
+369 silly addNameRange     '4.0.21-alpha',
+369 silly addNameRange     '4.0.22-alpha',
+369 silly addNameRange     '4.0.23-alpha',
+369 silly addNameRange     '4.0.24-alpha',
+369 silly addNameRange     '4.0.25-alpha',
+369 silly addNameRange     '4.0.26-alpha',
+369 silly addNameRange     '4.0.27-alpha',
+369 silly addNameRange     '4.0.28-alpha',
+369 silly addNameRange     '4.0.29',
+369 silly addNameRange     '4.0.30',
+369 silly addNameRange     '6.0.31',
+369 silly addNameRange     '6.0.32',
+369 silly addNameRange     '6.0.33',
+369 silly addNameRange     '6.0.34',
+369 silly addNameRange     '6.0.35',
+369 silly addNameRange     '6.0.36',
+369 silly addNameRange     '6.0.37',
+369 silly addNameRange     '6.0.38',
+369 silly addNameRange     '6.0.39',
+369 silly addNameRange     '6.0.40',
+369 silly addNameRange     '6.0.41',
+369 silly addNameRange     '6.0.42',
+369 silly addNameRange     '6.0.43',
+369 silly addNameRange     '6.0.44',
+369 silly addNameRange     '6.0.45',
+369 silly addNameRange     '6.0.46',
+369 silly addNameRange     '6.0.47',
+369 silly addNameRange     '6.0.48',
+369 silly addNameRange     '6.0.49',
+369 silly addNameRange     '6.0.50',
+369 silly addNameRange     '6.0.51',
+369 silly addNameRange     '0.0.0',
+369 silly addNameRange     '0.0.1',
+369 silly addNameRange     '0.0.2',
+369 silly addNameRange     '0.0.3',
+369 silly addNameRange     '6.0.52',
+369 silly addNameRange     '6.0.53',
+369 silly addNameRange     '6.0.54',
+369 silly addNameRange     '6.0.55',
+369 silly addNameRange     '6.0.56',
+369 silly addNameRange     '6.0.57',
+369 silly addNameRange     '6.0.58',
+369 silly addNameRange     '6.0.59',
+369 silly addNameRange     '4.2.0',
+369 silly addNameRange     '0.12.0',
+369 silly addNameRange     '7.0.0',
+369 silly addNameRange     '6.0.60',
+369 silly addNameRange     '7.0.1',
+369 silly addNameRange     '6.0.61',
+369 silly addNameRange     '7.0.2',
+369 silly addNameRange     '7.0.3',
+369 silly addNameRange     '7.0.4',
+369 silly addNameRange     '4.2.1',
+369 silly addNameRange     '6.0.62',
+369 silly addNameRange     '7.0.5',
+369 silly addNameRange     '6.0.63',
+369 silly addNameRange     '4.2.2',
+369 silly addNameRange     '0.12.1',
+369 silly addNameRange     '4.2.3',
+369 silly addNameRange     '6.0.64',
+369 silly addNameRange     '7.0.6',
+369 silly addNameRange     '6.0.65',
+369 silly addNameRange     '7.0.7',
+369 silly addNameRange     '7.0.8',
+369 silly addNameRange     '4.2.4',
+369 silly addNameRange     '0.12.2',
+369 silly addNameRange     '6.0.66',
+369 silly addNameRange     '7.0.9',
+369 silly addNameRange     '7.0.10',
+369 silly addNameRange     '7.0.11',
+369 silly addNameRange     '6.0.67',
+369 silly addNameRange     '6.0.68',
+369 silly addNameRange     '7.0.12',
+369 silly addNameRange     '4.2.5',
+369 silly addNameRange     '0.12.3',
+369 silly addNameRange     '6.0.69',
+369 silly addNameRange     '0.12.4',
+369 silly addNameRange     '4.2.6',
+369 silly addNameRange     '6.0.70',
+369 silly addNameRange     '7.0.13',
+369 silly addNameRange     '7.0.14',
+369 silly addNameRange     '6.0.71',
+369 silly addNameRange     '7.0.15',
+369 silly addNameRange     '4.2.7',
+369 silly addNameRange     '6.0.72',
+369 silly addNameRange     '7.0.16',
+369 silly addNameRange     '7.0.17',
+369 silly addNameRange     '7.0.18',
+369 silly addNameRange     '4.2.8',
+369 silly addNameRange     '6.0.73',
+369 silly addNameRange     '7.0.19',
+369 silly addNameRange     '7.0.20',
+369 silly addNameRange     '7.0.21',
+369 silly addNameRange     '7.0.22',
+369 silly addNameRange     '6.0.74',
+369 silly addNameRange     '7.0.23',
+369 silly addNameRange     '7.0.24',
+369 silly addNameRange     '6.0.75',
+369 silly addNameRange     ... 109 more items ] ]
+370 silly addNamed @types/node@8.0.51
+371 verbose addNamed "8.0.51" is a plain semver version for @types/node
+372 silly mapToRegistry name @types/node
+373 silly mapToRegistry scope (from package name) @types
+374 verbose mapToRegistry no registry URL found in name for scope @types
+375 silly mapToRegistry using default registry
+376 silly mapToRegistry registry https://registry.npmjs.org/
+377 silly mapToRegistry data Result {
+377 silly mapToRegistry   raw: '@types/node',
+377 silly mapToRegistry   scope: '@types',
+377 silly mapToRegistry   escapedName: '@types%2fnode',
+377 silly mapToRegistry   name: '@types/node',
+377 silly mapToRegistry   rawSpec: '',
+377 silly mapToRegistry   spec: 'latest',
+377 silly mapToRegistry   type: 'tag' }
+378 silly mapToRegistry uri https://registry.npmjs.org/@types%2fnode
+379 verbose addRemoteTarball https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz not in flight; adding
+380 verbose addRemoteTarball [ 'https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz',
+380 verbose addRemoteTarball   'b31d716fb8d58eeb95c068a039b9b6292817d5fb' ]
+381 info retry fetch attempt 1 at 4:18:31 PM
+382 info attempt registry request try #1 at 4:18:31 PM
+383 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+384 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+385 info attempt registry request try #2 at 4:18:41 PM
+386 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+387 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+388 info attempt registry request try #3 at 4:19:41 PM
+389 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+390 error fetch failed https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+391 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+392 info retry fetch attempt 2 at 4:19:51 PM
+393 info attempt registry request try #1 at 4:19:51 PM
+394 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+395 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+396 info attempt registry request try #2 at 4:20:01 PM
+397 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+398 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+399 info attempt registry request try #3 at 4:21:01 PM
+400 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+401 error fetch failed https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+402 warn retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+403 info retry fetch attempt 3 at 4:22:01 PM
+404 info attempt registry request try #1 at 4:22:01 PM
+405 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+406 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+407 info attempt registry request try #2 at 4:22:11 PM
+408 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+409 info retry will retry, error on last attempt: Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+410 info attempt registry request try #3 at 4:23:11 PM
+411 http fetch GET https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+412 error fetch failed https://registry.npmjs.org/@types/node/-/node-8.0.51.tgz
+413 silly rollbackFailedOptional Starting
+414 silly rollbackFailedOptional Finishing
+415 silly runTopLevelLifecycles Finishing
+416 silly install printInstalled
+417 verbose stack Error: getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+417 verbose stack     at errnoException (dns.js:28:10)
+417 verbose stack     at GetAddrInfoReqWrap.onlookup [as oncomplete] (dns.js:76:26)
+418 verbose cwd h:\study\practice\cashpositive
+419 error Windows_NT 6.3.9600
+420 error argv "c:\\Program Files\\nodejs\\node.exe" "c:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "express-validator" "--save"
+421 error node v6.11.0
+422 error npm  v3.10.10
+423 error code ENOTFOUND
+424 error errno ENOTFOUND
+425 error syscall getaddrinfo
+426 error network getaddrinfo ENOTFOUND registry.npmjs.org registry.npmjs.org:443
+427 error network This is most likely not a problem with npm itself
+427 error network and is related to network connectivity.
+427 error network In most cases you are behind a proxy or have bad network settings.
+427 error network
+427 error network If you are behind a proxy, please make sure that the
+427 error network 'proxy' config is set properly.  See: 'npm help config'
+428 verbose exit [ 1, true ]
